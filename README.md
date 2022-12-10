@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Abstract
+To test out whether it works with the following stack combination:
+- react.js, react-query, react-router-dom, redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HOWEVER, I will not implement Redux till I complete the objectives.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Objective
+To build a simple cart system, and login auth system. Total : 2.
 
-### `npm start`
+# How each file work (temporary)
+- index.js ✅
+This page will pop up initially.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- App.js ✅
+A main page to handle everything. 
+May load 'react-router-dom' 'routes' here.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+in components: ✅ (if necessary) react-router-dom
+- Navbar.jsx (either use css or styled-components)
 
-### `npm test`
+# Not defined (temporary)
+in context: react-query
+- shop-context.jsx
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+in pages: react-query
+cart - cart-item.jsx, cart.jsx (either use css or styled-components)
+shop - product.jsx, shop.jsx (either use css or styled-comp.)
+contact.jsx
 
-### `npm run build`
+# Understanding of each tech stack
+- react-query:
+fetching then caching data, so api call will be reduced and server can burden off?
+Answer: https://tech.osci.kr/2022/07/13/react-query/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- So, server side for react-query. client side is for Redux.
+https://tanstack.com/query/v4/docs/guides/does-this-replace-client-state?from=reactQueryV3&original=https://react-query-v3.tanstack.com/guides/does-this-replace-client-state
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
