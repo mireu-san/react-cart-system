@@ -1,9 +1,16 @@
+# How to run this program
+
+
+# install
+react-router-dom
+tanstack@react-query
+
+
 # Abstract
 To test out whether it works with the following stack combination:
 - react.js, react-query, react-router-dom, redux
 
 HOWEVER, I will not implement Redux till I complete the objectives.
-
 
 # Objective
 To build a simple cart system, and login auth system. Total : 2.
