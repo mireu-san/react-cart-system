@@ -5,12 +5,14 @@
 react-router-dom
 tanstack@react-query
 
-
 # Abstract
 To test out whether it works with the following stack combination:
 - react.js, react-query, react-router-dom, redux
 
 HOWEVER, I will not implement Redux till I complete the objectives.
+
+# Planned
+Code spliting has been applied over the project to speed up the web app in general. (ex. pages - cart, shop, components)
 
 # Objective
 To build a simple cart system, and login auth system. Total : 2.

@@ -1,0 +1,33 @@
+.shop {
+    background-color: whitesmoke;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    /* max-width: 500px; */
+    margin: auto;
+    padding: auto;
+    place-items: center;
+}
+
+@media only screen and (max-width: 1500px) {
+    
+    .items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    
+    .items {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.items img {
+    width: 400px;
+}
