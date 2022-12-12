@@ -28,15 +28,9 @@ May load 'react-router-dom' 'routes' here.
 in components: ✅ (if necessary) react-router-dom
 - Navbar.jsx (either use css or styled-components)
 
-# Not defined (temporary)
-in context: react-query
-- shop-context.jsx
-
-in pages: react-query
-cart - cart-item.jsx, cart.jsx (either use css or styled-components)
-shop - product.jsx, shop.jsx (either use css or styled-comp.)
-contact.jsx
-
+# Info.
+- Context.js
+Used createContext to compose cart with handling the props simultaneously.
 # Understanding of each tech stack
 - react-query:
 fetching then caching data, so api call will be reduced and server can burden off?

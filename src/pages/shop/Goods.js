@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Goods.css";
+import { DataContext } from "../../components/context/DataContext";
 
 export const Goods = (props) => {
   const { id, name, price, image, link } = props.shopItemProps;
