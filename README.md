@@ -1,5 +1,7 @@
 # How to run this program
-
+Before you run this web application, you need to input the following commands:
+npm install
+npm start
 
 # install
 react-router-dom
@@ -39,3 +41,16 @@ Answer: https://tech.osci.kr/2022/07/13/react-query/
 - So, server side for react-query. client side is for Redux.
 https://tanstack.com/query/v4/docs/guides/does-this-replace-client-state?from=reactQueryV3&original=https://react-query-v3.tanstack.com/guides/does-this-replace-client-state
 
+# Quick note (to do list):
+1. How to stop decrementing the value if it is less than zero in ReactJS?
+https://stackoverflow.com/questions/48961319/how-to-stop-decrementing-the-value-if-it-is-less-than-zero-in-reactjs
+
+2. console - Warning Each child in a list should have a unique "key" prop 
+https://stackoverflow.com/questions/71693355/warning-each-child-in-a-list-should-have-a-unique-key-prop
+
+Bonus.
+Do 'code spliting (bundled)'
+
+Don't do on this project unless applicable:
+- react-query - not for this one. But let me see if any possible implementation spot does exist. Perhaps state?
+- axios - well not this time, obviously.

@@ -14,15 +14,17 @@ const getDefaultCart = () => {
 export const DataContextProvider = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart);
 
-  const addToCart = (itemId) => {
+  const addItemToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
   };
 
-  const removeFromCart = (itemId) => {
+  const removeItemFromCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
   };
 
-  const contextValue = { cartItems, addToCart, removeFromCart };
+  const contextValue = { cartItems, addItemToCart, removeItemFromCart };
+
+  // console.log(cartItems);
 
   return (
     <DataContext.Provider value={contextValue}>
