@@ -1,0 +1,14 @@
+/* Goods.js */
+.goods-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.goods-price {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.cart-button button {
+    margin: 1rem;
+}
