@@ -27,8 +27,6 @@ https://stackoverflow.com/questions/48961319/how-to-stop-decrementing-the-value-
 2. console - Warning Each child in a list should have a unique "key" prop 
 https://stackoverflow.com/questions/71693355/warning-each-child-in-a-list-should-have-a-unique-key-prop
 
-3. For some reason, from cart, item #6 on Shop displays as always. This might be due to recognition error (#1 - #5.) How about #6?
-
 # Misc
 No plan to implement these on this project unless applicable:
 - react-query, axios

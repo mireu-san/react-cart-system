@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { DataContext } from "../../components/context/DataContext";
 
 export const CartItem = (props) => {
-  const { id, name, price, image } = props.data;
+  const { id, name, price, image, link } = props.data;
   const { cartItems, addItemToCart, removeItemFromCart, updateCartItemCount } =
     useContext(DataContext);
 
@@ -13,7 +13,12 @@ export const CartItem = (props) => {
         <p>
           <b>{name}</b>
         </p>
-        <p>${price}</p>
+        <p style={{ margin: "0px" }}>${price}</p>
+        <button>
+        <a href={link} className="goods-link">
+          CLICK HERE TO VISIT THE STORE PAGE
+        </a>
+      </button>
         <div className="countUpdator">
           <button onClick={() => removeItemFromCart(id)}> - </button>
           <input

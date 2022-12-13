@@ -15,7 +15,7 @@ export const Cart = () => {
   return (
     <div className="cart">
       <div>
-        <h1>Your Cart Items</h1>
+        <h1>Your Bookmarked Items</h1>
       </div>
       <div className="cartItems">
         {ItemsList.map((product) => {
@@ -27,7 +27,9 @@ export const Cart = () => {
       {totalAmount > 0 ? (
         <div className="checkout">
           <p> Subtotal: ${totalAmount}</p>
-          <button onClick={() => navigate("/")}> Back to the list </button>
+          <button onClick={() => navigate("/")}> Explore Other Items </button>
+          <h3>To remove, decrement the quantity of your item to ZERO.</h3>
+          <h3>목록에서 아이템을 지우려면 수량을 0으로 입력하세요.</h3>
         </div>
       ) : (
         <h1> Cart is Empty </h1>

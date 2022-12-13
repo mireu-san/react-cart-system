@@ -15,7 +15,7 @@ export const Navbar = () => {
             padding: "10px",
           }}
         >
-          Shop
+          Editor's Pick
         </Link>
         <Link
           to="/cart"
@@ -26,7 +26,7 @@ export const Navbar = () => {
             padding: "10px",
           }}
         >
-          Cart
+          Bookmark
         </Link>
       </div>
     </div>

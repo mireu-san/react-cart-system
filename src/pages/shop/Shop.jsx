@@ -8,6 +8,7 @@ export const Shop = () => {
     <div className="shop">
       <div className="shopTitle">
         <h1>Anime Biased Exhibition</h1>
+        <h3>(October ~ December, Q4 2022)</h3>
       </div>
       <div className="items">
         {ItemsList.map((item) => (
