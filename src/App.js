@@ -17,6 +17,10 @@ function App() {
           </Routes>
         </Router>
       </DataContextProvider>
+      <footer>
+        Copyright &copy; Chesed Kim. All Rights Reserved, except contents of
+        each item on the page.
+      </footer>
     </div>
   );
 }

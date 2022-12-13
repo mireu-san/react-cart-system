@@ -26,7 +26,7 @@ export const Navbar = () => {
             padding: "10px",
           }}
         >
-          Bookmark
+          Your Item
         </Link>
       </div>
     </div>
