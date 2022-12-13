@@ -5,14 +5,14 @@ export const DataContext = createContext(null);
 
 const getDefaultCart = () => {
   let cart = {};
-  for (let i = 1; i < ItemsList.length; i++) {
+  for (let i = 0; i <= ItemsList.length; i++) {
     cart[i] = 0;
   }
   return cart;
 };
 
 export const DataContextProvider = (props) => {
-  const [cartItems, setCartItems] = useState(getDefaultCart);
+  const [cartItems, setCartItems] = useState(getDefaultCart());
 
   const checkoutTotalSum = () => {
     let totalAmount = 0;
@@ -37,6 +37,10 @@ export const DataContextProvider = (props) => {
     setCartItems((prev) => ({ ...prev, [itemId]: newAmount }));
   };
 
+  const checkout = () => {
+    setCartItems(getDefaultCart());
+  };
+
   // Always check!
   const contextValue = {
     cartItems,
@@ -44,6 +48,7 @@ export const DataContextProvider = (props) => {
     removeItemFromCart,
     updateCartItemCount,
     checkoutTotalSum,
+    checkout,
   };
 
   // console.log(cartItems);

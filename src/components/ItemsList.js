@@ -41,4 +41,11 @@ export const ItemsList = [
     image: cover5,
     link: "https://store.steampowered.com/app/1256670/Library_Of_Ruina/",
   },
+  {
+    id: 6,
+    name: "Limbus Company",
+    price: 29.99,
+    image: cover6,
+    link: "https://limbuscompany.com/",
+  },
 ];

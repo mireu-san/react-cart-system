@@ -10,7 +10,6 @@ export const Goods = (props) => {
 
   return (
     <div className="goods">
-      <div className="goods-id">{id}</div>
       <img src={image} alt="thumbnail_image" className="goods-image" />
         <p>
           <b>{name}</b>
@@ -18,10 +17,9 @@ export const Goods = (props) => {
         <p>
           ${price}
         </p>
-      <div className="cart-button">
-        {/* <button onClick={() => removeItemFromCart(id)}>-</button> */}    
+      {/* <div className="cart-button"> */}
         <button className="addToCartButton" onClick={() => addItemToCart(id)}>Add Bookmark {cartItemStored > 0 && <> ({cartItemStored}) </>}</button>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
