@@ -6,7 +6,7 @@ import "./Shop.css";
 export const Shop = () => {
   return (
     <div className="shop">
-      <div className="shop-title">
+      <div className="shopTitle">
         <h1>Anime Biased Shop</h1>
       </div>
       <div className="items">
