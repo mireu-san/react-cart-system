@@ -37,10 +37,6 @@ export const DataContextProvider = (props) => {
     setCartItems((prev) => ({ ...prev, [itemId]: newAmount }));
   };
 
-  const checkout = () => {
-    setCartItems(getDefaultCart());
-  };
-
   // Always check!
   const contextValue = {
     cartItems,
@@ -48,7 +44,7 @@ export const DataContextProvider = (props) => {
     removeItemFromCart,
     updateCartItemCount,
     checkoutTotalSum,
-    checkout,
+    // checkout,
   };
 
   // console.log(cartItems);
