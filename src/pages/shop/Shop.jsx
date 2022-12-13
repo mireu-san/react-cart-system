@@ -7,7 +7,7 @@ export const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h1>Anime Biased Shop</h1>
+        <h1>Anime Biased Exhibition</h1>
       </div>
       <div className="items">
         {ItemsList.map((item) => (
