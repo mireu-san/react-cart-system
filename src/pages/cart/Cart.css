@@ -7,12 +7,16 @@
 
 .cartItem {
     width: 700px;
-    height: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
     margin: 30px;
+}
+
+.cartItem p {
+    margin: 0;
 }
 
 .cartItem img {
@@ -22,6 +26,7 @@
 
 .cartItem .cartDescription {
     width: 100%;
+    margin-right: 10px;
     font-size: 30px;
 }
 

@@ -1,10 +1,12 @@
 import React, { useContext } from "react";
 import "./Goods.css";
 import { DataContext } from "../../components/context/DataContext";
+import { AiFillLike, AiFillDislike } from "react-icons/ai"
+
 
 export const Goods = (props) => {
   const { id, name, price, image } = props.shopItemProps;
-  const { cartItems, addItemToCart  } =
+  const { cartItems, addItemToCart, removeItemFromCart  } =
     useContext(DataContext);
   const cartItemStored = cartItems[id];
 
@@ -17,9 +19,11 @@ export const Goods = (props) => {
         <p>
           ${price}
         </p>
-      {/* <div className="cart-button"> */}
-        <button className="addToCartButton" onClick={() => addItemToCart(id)}>Add Bookmark {cartItemStored > 0 && <> ({cartItemStored}) </>}</button>
-      {/* </div> */}
+      <div className="cart-button">
+      <button className="removeItemFromCartButton" onClick={() => removeItemFromCart(id)}> <AiFillDislike /> Remove </button>
+      <button className="addToCartButton" onClick={() => addItemToCart(id)}> <AiFillLike /> Add it </button>
+      {cartItemStored > 0 && <> ({cartItemStored}) </>}
+      </div>
     </div>
   );
 };
