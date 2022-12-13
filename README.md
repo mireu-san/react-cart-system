@@ -8,7 +8,7 @@ react-router-dom
 
 # Abstract
 To test out whether it works with the following stack combination:
-- react.js, react-query, react-router-dom
+- react.js, react-router-dom
 
 
 # Planned
