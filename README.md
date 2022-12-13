@@ -1,25 +1,8 @@
-# How to run this program
-Before you run this web application, you need to input the following commands:
-npm install
-npm start
+# Side project title.
+Anime Biased Exhibition Room
 
-# install
-react-router-dom
+자세한 내용은 https://silverlibrary.tistory.com/513 를 참고바랍니다.
 
-# Abstract
-To test out whether it works with the following stack combination:
-- react.js, react-router-dom
-
-
-# Planned
-Code spliting has been applied over the project to speed up the web app in general. (ex. pages - cart, shop, components)
-
-# Objective
-Build a cart system in react.
-
-# Info.
-- Context.js
-Used createContext to compose cart with handling the props simultaneously.
 # personal note.
 1. How to stop decrementing the value if it is less than zero in ReactJS?
 https://stackoverflow.com/questions/48961319/how-to-stop-decrementing-the-value-if-it-is-less-than-zero-in-reactjs
