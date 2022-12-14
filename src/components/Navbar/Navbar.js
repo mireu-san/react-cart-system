@@ -26,7 +26,7 @@ export const Navbar = () => {
             padding: "10px",
           }}
         >
-          Your Item
+          Your Item (Bookmark)
         </Link>
       </div>
     </div>
