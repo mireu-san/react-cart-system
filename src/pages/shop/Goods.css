@@ -13,3 +13,23 @@
     margin: 1rem;
 }
 
+.removeItemFromCartButton {
+    background-color: white;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease;
+}
+
+.removeItemFromCartButton:hover {
+    background-color: red;
+}
+
+.addToCartButton {
+    background: white;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease;
+}
+
+.addToCartButton:hover {
+    background-color: yellow;
+}
+
