@@ -2,6 +2,7 @@
 Anime Biased Exhibition Room
 
 자세한 내용은 https://silverlibrary.tistory.com/513 를 참고바랍니다.
+Published : https://quiet-blancmange-2e51b7.netlify.app/
 
 # personal note.
 1. How to stop decrementing the value if it is less than zero in ReactJS?
