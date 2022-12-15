@@ -28,7 +28,7 @@ export const Cart = () => {
         <div className="checkout">
           <p><b><h2> Estimated One-time Expenses (첫 예상 지출 금액) </h2></b></p>
           <h1>${totalAmount}</h1>
-          <button onClick={() => navigate("/")}> Explore Other Items <b>(다른 아이템 둘러보기)</b> </button>
+          <button className="exploreButton" onClick={() => navigate("/")}> Explore Other Items <b>(다른 아이템 둘러보기)</b> </button>
           <h3>To remove, decrement the quantity of your love to ZERO by pressing dislike button.</h3>
           <h3>목록에서 아이템을 없애려면, Dislike 버튼을 눌러 호감도를 0으로 만드세요.</h3>
         </div>

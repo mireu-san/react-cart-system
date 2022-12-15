@@ -17,19 +17,23 @@
     background-color: white;
     padding: 0.5rem;
     transition: background-color 0.5s ease;
+    border-radius: 10px;
 }
 
 .removeItemFromCartButton:hover {
     background-color: red;
+    border-radius: 10px;
 }
 
 .addToCartButton {
     background: white;
     padding: 0.5rem;
     transition: background-color 0.5s ease;
+    border-radius: 10px;
 }
 
 .addToCartButton:hover {
     background-color: yellow;
+    border-radius: 10px;
 }
 
