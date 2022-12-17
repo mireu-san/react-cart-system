@@ -1,5 +1,6 @@
 .shop {
     background-color: whitesmoke;
+
 }
 
 .items {
@@ -34,4 +35,8 @@
     width: 400px;
 }
 
-
+@media only screen and (max-width: 600px) {
+    .items img {
+      width: 350px;
+    }
+  }

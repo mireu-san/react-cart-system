@@ -4,6 +4,8 @@ Anime Biased Exhibition Room
 - 자세한 내용은 https://silverlibrary.tistory.com/513 를 참고바랍니다.
 - Published : https://quiet-blancmange-2e51b7.netlify.app/
 
+# Update
+현재 일본의 한 게임사 웹사이트 레이아웃을 강하게 참고해서 개선 중에 있습니다.
 # personal note.
 1. How to stop decrementing the value if it is less than zero in ReactJS?
 https://stackoverflow.com/questions/48961319/how-to-stop-decrementing-the-value-if-it-is-less-than-zero-in-reactjs
@@ -14,3 +16,4 @@ https://stackoverflow.com/questions/71693355/warning-each-child-in-a-list-should
 # Misc
 No plan to implement these on this project unless applicable:
 - react-query, axios
+

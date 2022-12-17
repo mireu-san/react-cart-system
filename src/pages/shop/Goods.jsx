@@ -11,6 +11,7 @@ export const Goods = (props) => {
   const cartItemStored = cartItems[id];
 
   return (
+    // the item lists display here - 6 grid
     <div className="goods">
       <img src={image} alt="thumbnail_image" className="goods-image" />
         <p>

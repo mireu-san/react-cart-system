@@ -1,9 +1,16 @@
 .navbar {
     background-color: black;
     overflow: hidden;
+
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 
 .navbar-links {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: column;
 }
