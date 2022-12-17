@@ -25,11 +25,19 @@
     border-radius: 10px;
 }
 
+.removeItemFromCartButton:active {
+    background: white;
+    transition: background-color 1 ease;
+}
+
 .addToCartButton {
     background: white;
     padding: 0.5rem;
     transition: background-color 0.5s ease;
     border-radius: 10px;
+
+    transform: scale(1);
+    transition: transform 0.5s
 }
 
 .addToCartButton:hover {
@@ -37,3 +45,43 @@
     border-radius: 10px;
 }
 
+.addToCartButton:active {
+    background-color: #3281CD;
+    transform: scale(1.5);
+    transition: background-color 1 ease;
+}
+
+@keyframes like-effect {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    20% {
+        transform: rotate(-10deg) scale(1.1);
+    }
+    40% {
+        transform: rotate(10deg) scale(1.1);
+    }
+    60% {
+        transform: rotate(-10deg) scale(1.1);
+    }
+    80% {
+        transform: rotate(10deg) scale(1.1);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+.addToCartButton:active {
+    animation: like-effect 0.5s;
+    background: linear-gradient(to bottom right,
+    cyan, 
+    yellow, 
+    red
+    )
+}
+
+.removeItemFromCartButton:active {
+    animation: like-effect 0.2s;
+    background-color: linear-gradient(to bottom right, blue, pink);
+}
