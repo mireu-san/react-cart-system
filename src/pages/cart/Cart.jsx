@@ -28,7 +28,7 @@ export const Cart = () => {
       </div>
       {totalAmount > 0 ? (
         <div className="checkout">
-          <p><b><h2> Estimated One-time Expenses (첫 예상 지출 금액) </h2></b></p>
+          <p><b><h2> Estimated One-time Expenses </h2></b></p>
           <h1>${totalAmount}</h1>
           <button className="exploreButton" onClick={() => navigate("/")}> Explore Other Items <b>(다른 아이템 둘러보기)</b> </button>
           <h3>To remove, decrement the quantity of your love to ZERO by pressing dislike button.</h3>

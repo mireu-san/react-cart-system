@@ -6,26 +6,10 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-links">
-        <Link
-          to="/"
-          style={{
-            textDecoration: "none",
-            color: "white",
-            fontSize: "24px",
-            padding: "10px",
-          }}
-        >
+        <Link to="/" className="navbar-editor">
           Editor's Pick
         </Link>
-        <Link
-          to="/cart"
-          style={{
-            textDecoration: "none",
-            color: "white",
-            fontSize: "24px",
-            padding: "10px",
-          }}
-        >
+        <Link to="/cart" className="navbar-cart">
           Your Item (Bookmark)
         </Link>
       </div>
