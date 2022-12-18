@@ -5,6 +5,8 @@ import { Shop } from "./pages/shop/Shop";
 import { Cart } from "./pages/cart/Cart";
 import { DataContextProvider } from "./components/context/DataContext";
 
+// note: the app is in small scale, so I used useState instead.
+
 function App() {
   return (
     <div className="App">
