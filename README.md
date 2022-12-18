@@ -2,7 +2,7 @@
 Anime Biased Exhibition Room
 
 - 자세한 내용은 https://silverlibrary.tistory.com/513 를 참고바랍니다.
-- Published : https://quiet-blancmange-2e51b7.netlify.app/
+- Published : https://master.d379oe3hhrzrxj.amplifyapp.com/
 
 # Update
 현재 일본의 한 게임사 웹사이트 레이아웃을 강하게 참고해서 개선 중에 있습니다.
