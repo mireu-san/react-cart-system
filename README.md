@@ -15,6 +15,9 @@ https://stackoverflow.com/questions/48961319/how-to-stop-decrementing-the-value-
 https://stackoverflow.com/questions/71693355/warning-each-child-in-a-list-should-have-a-unique-key-prop
 
 # Misc
-No plan to implement these on this project unless applicable:
-- react-query, axios
+- No plan to implement these on this project unless applicable:
+react-query, axios
 
+- Tech note (AWS): What domain name prefix do you want to use? : googlesignin
+
+- Note: while 'amplify push' is ongoing process, NEVER interrupt it. Be patient and leave it for 10-15minutes. It really takes some time.
