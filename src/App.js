@@ -5,13 +5,6 @@ import { Shop } from "./pages/shop/Shop";
 import { Cart } from "./pages/cart/Cart";
 import { DataContextProvider } from "./components/context/DataContext";
 
-// note: the app is in small scale, so I used useState instead.
-// start
-// import React, {useState, useEffect} from 'react';
-// import { Hub, Auth } from 'aws-amplify'
-
-// end
-
 function App() {
   return (
     <div className="App">

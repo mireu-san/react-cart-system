@@ -21,3 +21,5 @@ react-query, axios
 - Tech note (AWS): What domain name prefix do you want to use? : googlesignin
 
 - Note: while 'amplify push' is ongoing process, NEVER interrupt it. Be patient and leave it for 10-15minutes. It really takes some time.
+
+- npm install --save react-skylight --legacy-peer-deps // this is for modal component
